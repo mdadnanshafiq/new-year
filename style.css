@@ -331,13 +331,57 @@ If you are reading this, can you please tell me how to download all assets at on
 
 /* gift styles */
 
+.gift-info {
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items: left;
+}
+
+.gift-title {
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.gift-sub {
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.gift-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 70%;
+    margin-bottom: 48px;
+}
+
 .gift-grid {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .gift-grid>* {
-    width: calc(100%/3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.gift-grid img {
+    border: 0;
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
 }
 
 /* newsletter styles */
