@@ -53,6 +53,37 @@ hr {
 	transition: .15s ease-in-out;
 }
 
+.btn-effect, a{
+	transition: .15s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-effect:hover, a:hover{
+    color: #F00;
+}
+
+.btn-effect:active, a:active{
+    color: #FFF;
+	transition: .15s ease-in-out;
+}
+
+.button-effect, form input[type="submit"]{
+	transition: .15s ease-in-out;
+    cursor: pointer;
+}
+
+.button-effect:hover, form input[type="submit"]:hover{
+    color: #F00;
+    background-color: #ffffff00;
+    border: 1px solid #F00;
+}
+
+.button-effect:active, form input[type="submit"]:active{
+    color: #FFF;
+    background-color: #F00;
+	transition: .15s ease-in-out;
+}
+
 /* header styles */
 
 .banner {
@@ -533,12 +564,13 @@ footer {
 }
 
 .footer-dial p,
-.footer-web p {
+.footer-web p, a {
     color: #FFF;
     font-family: 'Inter';
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
+    text-decoration: none;
 }
 
 .footer-social {
