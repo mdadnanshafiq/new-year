@@ -28,7 +28,18 @@
     padding: 30px;
     width: 364.844px;
     height: 364.844px;
+    transition: .15s ease-in-out;
 }
+
+#special:hover {
+    padding: 0px;
+}
+
+#special:active {
+    border: 20px solid #F00;
+    transition: .15s ease-in-out;
+}
+
 
 hr {
     height: 1px;
