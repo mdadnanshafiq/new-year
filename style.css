@@ -1,3 +1,7 @@
+/* fonts import */ 
+
+/* Md. Adnan Shafiq | WEB9-1011 */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 /* universal styles */
@@ -14,7 +18,7 @@
     margin: 0 auto;
 }
 
-.red{
+.red {
     color: #F00;
 }
 
@@ -26,11 +30,91 @@
     height: 364.844px;
 }
 
-.gift-grid{
+/* header styles */
+
+.banner {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 16px;
+    border: 0;
+}
+
+.banner-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-slogan {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    width: 632px;
+
+}
+
+/* Md. Adnan Shafiq | WEB9-1011 */
+
+/* offer styles */
+
+.offer{
+    width: 51%;
+    max-width: 803px;
+    margin: 0 auto;
+}
+
+/* invite styles */
+
+
+
+/* place styles */
+
+
+
+/* Md. Adnan Shafiq | WEB9-1011 */
+/* soon styles */
+
+
+
+/* sale styles */
+
+
+
+/* gift styles */
+
+.gift-grid {
     display: flex;
     flex-wrap: wrap;
 }
 
-.gift-grid >*{
+.gift-grid>* {
     width: calc(100%/3);
 }
+
+/* newsletter styles */
+
+
+
+/* footer styles */
+
+
+
+/* Md. Adnan Shafiq | WEB9-1011 */
