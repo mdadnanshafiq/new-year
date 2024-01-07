@@ -392,6 +392,17 @@ Md. Adnan Shafiq | WEB9-1011 */
     height: 100%;
 }
 
+/* hover effect */
+
+.gift-grid-img img {
+    opacity: 1;
+	transition: .3s ease-in-out;
+}
+
+.gift-grid-img:hover img  {
+	opacity: .5;
+}
+
 /* newsletter styles */
 
 .newsletter {
@@ -545,6 +556,5 @@ footer {
     font-size: 24px;
     font-weight: 500;
 }
-
 
 /* Md. Adnan Shafiq | WEB9-1011 */
