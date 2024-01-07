@@ -37,6 +37,22 @@ hr {
     margin: 50px auto;
 }
 
+/* hover effect */
+
+.gift-grid-img img, .footer-social img {
+    opacity: 1;
+	transition: .15s ease-in-out;
+}
+
+.gift-grid-img:hover img, .footer-social img:hover  {
+	opacity: .5;
+}
+
+.gift-grid-img:active img, .footer-social img:active  {
+	opacity: 1;
+	transition: .15s ease-in-out;
+}
+
 /* header styles */
 
 .banner {
@@ -390,17 +406,6 @@ Md. Adnan Shafiq | WEB9-1011 */
     border-radius: 5%;
     width: 100%;
     height: 100%;
-}
-
-/* hover effect */
-
-.gift-grid-img img {
-    opacity: 1;
-	transition: .3s ease-in-out;
-}
-
-.gift-grid-img:hover img  {
-	opacity: .5;
 }
 
 /* newsletter styles */
