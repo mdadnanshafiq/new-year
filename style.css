@@ -30,6 +30,13 @@
     height: 364.844px;
 }
 
+hr {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 0;
+    margin: 50px auto;
+}
+
 /* header styles */
 
 .banner {
@@ -463,6 +470,7 @@ Md. Adnan Shafiq | WEB9-1011 */
 
 footer {
     width: 100%;
+    height: 610px;
     background: #070211;
     color: #FFF;
 }
@@ -470,5 +478,73 @@ footer {
 #footfull {
     margin-bottom: 0;
 }
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.footer-add {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    margin-right: 140px;
+}
+
+.footer-dial,
+.footer-web {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-dial img,
+.footer-web img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-dial p,
+.footer-web p {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-copy,
+.footer-unsub {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+
 
 /* Md. Adnan Shafiq | WEB9-1011 */
